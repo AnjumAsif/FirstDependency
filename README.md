@@ -17,5 +17,4 @@ And here is the same layout built using sp:
 sp example
 
 You can see that ssp scales with the screen size and the sp stays with the same size on all screen sizes.
-<a href="https://www.w3schools.com"> ASif </a>
-<img src="https://github.com/AsifAnjum/FirstDependency/blob/master/logo%203kx3k.png" style="max-width:40%" title="White flower" alt="Flower">
+<img src="https://github.com/AsifAnjum/FirstDependency/blob/master/logo%203kx3k.png" style="max-width: 40%;" title="White flower" alt="Flower">
