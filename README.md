@@ -21,4 +21,4 @@ You can see that ssp scales with the screen size and the sp stays with the same 
 
 
 
-<a href="https://github.com/AsifAnjum/FirstDependency/blob/master/logo%203kx3k.png"><img src="https://github.com/AsifAnjum/FirstDependency/blob/master/logo%203kx3k.png" style="width:82px; height:86px" title="White flower" alt="Flower"></a>
+<img src="https://github.com/AsifAnjum/FirstDependency/blob/master/logo%203kx3k.png" style="width:22px; height:26px" title="White flower" alt="Flower">
