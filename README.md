@@ -18,4 +18,4 @@ sp example
 
 You can see that ssp scales with the screen size and the sp stays with the same size on all screen sizes.
 
-<img src="https://github.com/AsifAnjum/FirstDependency/blob/master/Capture.PNG" style="max-width: 40%;" title="White flower" alt="Flower">
+<img src="https://github.com/AsifAnjum/FirstDependency/blob/master/Capture.PNG" width="50" title="White flower" alt="Flower">
