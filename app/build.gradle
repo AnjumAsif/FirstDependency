@@ -1,6 +1,10 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.AsifAnjum'
 android {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
     compileSdkVersion 28
     buildToolsVersion "29.0.0"
     defaultConfig {
@@ -17,7 +21,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
+
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -27,4 +35,10 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(path: ':firstependencies')
+    implementation 'com.github.ajaycseng:dimen:v1.0'
+
+
+
+
+
 }

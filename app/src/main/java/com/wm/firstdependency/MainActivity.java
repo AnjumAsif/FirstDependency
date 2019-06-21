@@ -1,9 +1,10 @@
 package com.wm.firstdependency;
 
-import android.support.v7.app.AppCompatActivity;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.wm.firstependencies.CentralTendency;
 
@@ -19,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textMessage=findViewById(R.id.textMessage);
+        textMessage = findViewById(R.id.textMessage);
         ArrayList<Integer> numbers = new ArrayList<>();
         Random r = new Random();
 
         for (int i = 0; i < 15; i++) {
-            numbers.add(r.nextInt(7)+1);
+            numbers.add(r.nextInt(7) + 1);
         }
 
         double mean = CentralTendency.arithmeticMean(numbers).doubleValue();
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         Collections.sort(numbers);
 
-        String res = String.format("Numbers:\n\n%s\nMean: %.1f\nMedian: %.1f\nMode: %s\n",
+        @SuppressLint("DefaultLocale") String res = String.format("Numbers:\n\n%s\nMean: %.1f\nMedian: %.1f\nMode: %s\n",
                 numbers, mean, median, mode);
 
 
