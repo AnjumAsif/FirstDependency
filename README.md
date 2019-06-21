@@ -18,4 +18,7 @@ sp example
 
 You can see that ssp scales with the screen size and the sp stays with the same size on all screen sizes.
 <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
-<a href="https://github.com/AsifAnjum/FirstDependency/blob/master/logo%203kx3k.png"><img src="flower.jpg" style="width:82px; height:86px" title="White flower" alt="Flower"></a>
+
+
+
+<a href="https://github.com/AsifAnjum/FirstDependency/blob/master/logo%203kx3k.png"><img src="https://github.com/AsifAnjum/FirstDependency/blob/master/logo%203kx3k.png" style="width:82px; height:86px" title="White flower" alt="Flower"></a>
